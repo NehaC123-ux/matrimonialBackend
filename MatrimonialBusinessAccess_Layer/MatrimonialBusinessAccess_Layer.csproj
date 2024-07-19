@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Matrimonial.GlobleExceptionHandling\Matrimonial.GlobleExceptionHandling.csproj" />
+    <ProjectReference Include="..\MatrimonialDataAccess_Layer\MatrimonialDataAccess_Layer.csproj" />
+    <ProjectReference Include="..\MatrimonialModel_Layer\MatrimonialModel_Layer.csproj" />
+  </ItemGroup>
+
+</Project>
